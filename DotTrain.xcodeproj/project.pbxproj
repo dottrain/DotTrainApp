@@ -487,6 +487,7 @@
 				AA331DCE1BFC3875003827E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA331DCF1BFC3875003827E9 /* Build configuration list for PBXNativeTarget "DotTrainTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +496,7 @@
 				AA331DD11BFC3875003827E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA331DD21BFC3875003827E9 /* Build configuration list for PBXNativeTarget "DotTrainUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +505,7 @@
 				AA331DD41BFC3875003827E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
