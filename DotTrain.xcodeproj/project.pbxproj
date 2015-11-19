@@ -15,6 +15,7 @@
 		AA331DB21BFC3875003827E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA331DB01BFC3875003827E9 /* LaunchScreen.storyboard */; };
 		AA331DBD1BFC3875003827E9 /* DotTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA331DBC1BFC3875003827E9 /* DotTrainTests.swift */; };
 		AA331DC81BFC3875003827E9 /* DotTrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA331DC71BFC3875003827E9 /* DotTrainUITests.swift */; };
+		C645B5AB1BFE516B003F47EE /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645B5AA1BFE516B003F47EE /* ViewControllerTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AA331DC31BFC3875003827E9 /* DotTrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DotTrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA331DC71BFC3875003827E9 /* DotTrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotTrainUITests.swift; sourceTree = "<group>"; };
 		AA331DC91BFC3875003827E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C645B5AA1BFE516B003F47EE /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				AA331DB01BFC3875003827E9 /* LaunchScreen.storyboard */,
 				AA331DB31BFC3875003827E9 /* Info.plist */,
 				AA331DAB1BFC3875003827E9 /* DotTrain.xcdatamodeld */,
+				C645B5AA1BFE516B003F47EE /* ViewControllerTwo.swift */,
 			);
 			path = DotTrain;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				AA331DA71BFC3875003827E9 /* ViewController.swift in Sources */,
 				AA331DA51BFC3875003827E9 /* AppDelegate.swift in Sources */,
 				AA331DAD1BFC3875003827E9 /* DotTrain.xcdatamodeld in Sources */,
+				C645B5AB1BFE516B003F47EE /* ViewControllerTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

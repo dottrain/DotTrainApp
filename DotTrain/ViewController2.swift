@@ -1,22 +1,21 @@
 //
-//  ViewController.swift
+//  ViewController2.swift
 //  DotTrain
 //
-//  Created by Christian on 11/17/15.
+//  Created by Scott Arkin Old on 11/19/15.
 //  Copyright © 2015 Masa. All rights reserved.
 //
 
+
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController2: UIViewController {
     
-
     override func viewDidLoad() {
-        super.viewDidLoad();
-        
+        super.viewDidLoad()
         //This is a comment...hello everyone..
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -27,10 +26,6 @@ class ViewController: UIViewController {
     }
     
     
-
     
-
-
-
+    
 }
-
