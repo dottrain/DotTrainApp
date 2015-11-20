@@ -16,6 +16,7 @@
 		AA331DBD1BFC3875003827E9 /* DotTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA331DBC1BFC3875003827E9 /* DotTrainTests.swift */; };
 		AA331DC81BFC3875003827E9 /* DotTrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA331DC71BFC3875003827E9 /* DotTrainUITests.swift */; };
 		C645B5AB1BFE516B003F47EE /* ViewControllerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C645B5AA1BFE516B003F47EE /* ViewControllerTwo.swift */; };
+		CF9278FA1BFECEB6008BE7B3 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9278F91BFECEB6008BE7B3 /* TimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		AA331DC71BFC3875003827E9 /* DotTrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotTrainUITests.swift; sourceTree = "<group>"; };
 		AA331DC91BFC3875003827E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C645B5AA1BFE516B003F47EE /* ViewControllerTwo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTwo.swift; sourceTree = "<group>"; };
+		CF9278F91BFECEB6008BE7B3 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				AA331DA41BFC3875003827E9 /* AppDelegate.swift */,
 				AA331DA61BFC3875003827E9 /* ViewController.swift */,
+				CF9278F91BFECEB6008BE7B3 /* TimerViewController.swift */,
 				AA331DA81BFC3875003827E9 /* Main.storyboard */,
 				AA331DAE1BFC3875003827E9 /* Assets.xcassets */,
 				AA331DB01BFC3875003827E9 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9278FA1BFECEB6008BE7B3 /* TimerViewController.swift in Sources */,
 				AA331DA71BFC3875003827E9 /* ViewController.swift in Sources */,
 				AA331DA51BFC3875003827E9 /* AppDelegate.swift in Sources */,
 				AA331DAD1BFC3875003827E9 /* DotTrain.xcdatamodeld in Sources */,

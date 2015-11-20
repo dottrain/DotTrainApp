@@ -1427,7 +1427,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Rax-8N-1K7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1780.5" y="901"/>
+            <point key="canvasLocation" x="1732.5" y="2358"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="s12-HO-l9Q">
@@ -1456,7 +1456,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kdU-I6-qJL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2176.5" y="1160.5"/>
+            <point key="canvasLocation" x="1578.5" y="1716.5"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="ygg-3A-0TG">
@@ -1647,10 +1647,10 @@
             </objects>
             <point key="canvasLocation" x="3075.5" y="2059.5"/>
         </scene>
-        <!--View Controller-->
+        <!--Timer View Controller-->
         <scene sceneID="vD0-H6-BQl">
             <objects>
-                <viewController id="ROZ-vD-hFa" sceneMemberID="viewController">
+                <viewController id="ROZ-vD-hFa" customClass="TimerViewController" customModule="DotTrain" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dNe-VJ-nnf"/>
                         <viewControllerLayoutGuide type="bottom" id="uXR-8v-hgh"/>
@@ -1701,10 +1701,13 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="FKR-7M-2I5" kind="modal" identifier="timerSegue" id="GIZ-Uo-7eW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RoS-8U-qc3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2575.5" y="2069.5"/>
+            <point key="canvasLocation" x="2139.5" y="1160.5"/>
         </scene>
         <!--ViewControllerTwo-->
         <scene sceneID="yq3-ox-qP5">
@@ -1876,12 +1879,12 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pCW-n0-hwM" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <swipeGestureRecognizer direction="right" id="bbG-U7-1qS" userLabel="Swipe Right">
                     <connections>
-                        <segue destination="FKR-7M-2I5" kind="modal" id="AR1-Jx-FFD"/>
+                        <segue destination="ROZ-vD-hFa" kind="modal" id="Icu-Cs-XWq"/>
                     </connections>
                 </swipeGestureRecognizer>
                 <swipeGestureRecognizer direction="left" id="YaE-zz-PvD" userLabel="Swipe Left">
                     <connections>
-                        <segue destination="FKR-7M-2I5" kind="modal" id="dmL-KH-Dvr"/>
+                        <segue destination="ROZ-vD-hFa" kind="modal" id="O2h-qX-WZg"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
@@ -1917,7 +1920,7 @@
         <segue reference="aBb-Qb-is4"/>
         <segue reference="b1x-ze-rq1"/>
         <segue reference="fKt-UB-Icf"/>
-        <segue reference="dmL-KH-Dvr"/>
         <segue reference="e3e-pv-x8K"/>
+        <segue reference="O2h-qX-WZg"/>
     </inferredMetricsTieBreakers>
 </document>
