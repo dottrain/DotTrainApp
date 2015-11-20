@@ -1386,10 +1386,6 @@
                                                     <rect key="frame" x="224" y="21" width="45" height="45.5"/>
                                                     <animations/>
                                                 </imageView>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dot" translatesAutoresizingMaskIntoConstraints="NO" id="h4Q-tB-vLG">
-                                                    <rect key="frame" x="272" y="21" width="45" height="45.5"/>
-                                                    <animations/>
-                                                </imageView>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HE3-7c-rfw">
                                                     <rect key="frame" x="342" y="31" width="25" height="28"/>
                                                     <animations/>
